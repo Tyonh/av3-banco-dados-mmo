@@ -22,7 +22,7 @@
   </g>
   <!-- title -->
   <text x="56" y="205" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="300" fill="#E8ECEA">Banco de Dados de um <tspan fill="#79F016" font-weight="500">MMO</tspan></text>
-  <text x="56" y="256" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="300" fill="#A7B7AD">inspirado em RuneScape. Simples de explicar, rigoroso nas regras.</text>
+  <text x="56" y="256" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="300" fill="#A7B7AD">inspirado em RuneScape</text>
   <!-- progress -->
   <g font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15">
     <text x="56" y="318" fill="#79F016">[</text>
