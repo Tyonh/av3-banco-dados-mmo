@@ -19,6 +19,7 @@ Trabalho da 3ª Avaliação (AV3) de **Técnicas de Implementação de Banco de 
 | **Professor** | Kaio Mesquita |
 | **SGBD** | PostgreSQL 16 |
 | **Relatório** | [`docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx`](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx) (padrão ABNT) |
+| **Slides** | [`docs/apresentacao/AV3_Banco_de_Dados_MMO_slides.pdf`](docs/apresentacao/AV3_Banco_de_Dados_MMO_slides.pdf) (15 slides) |
 
 <img src="docs/assets/divider.svg" width="100%" alt="">
 
@@ -88,6 +89,7 @@ A cada envio ao GitHub, o [GitHub Actions](.github/workflows/testes.yml) sobe um
 │   └── teste_concorrencia.sh    teste de concorrência automático (usado no GitHub Actions)
 ├── docs/
 │   ├── relatorio/               relatório técnico em Word, padrão ABNT
+│   ├── apresentacao/            slides da apresentação em PDF
 │   ├── diagramas/               modelo conceitual, modelo lógico (DER) e arquitetura
 │   │   └── fontes/              arquivos-fonte dos diagramas (Mermaid e Graphviz)
 │   └── dicionario_de_dados.md   todos os atributos de todas as tabelas
