@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="12 tabelas, 61 testes, 4 perfis de acesso, 3 regiões">
+  <rect width="1280" height="150" rx="12" fill="#0A1517"/>
+  <rect x="0.5" y="0.5" width="1279" height="149" rx="12" fill="none" stroke="#79F016" stroke-opacity="0.2"/>
+  <g font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif">
+    <g text-anchor="middle">
+      <text x="160" y="80" font-size="56" font-weight="300" fill="#79F016">12</text>
+      <text x="480" y="80" font-size="56" font-weight="300" fill="#79F016">61</text>
+      <text x="800" y="80" font-size="56" font-weight="300" fill="#79F016">4</text>
+      <text x="1120" y="80" font-size="56" font-weight="300" fill="#79F016">3</text>
+    </g>
+    <g text-anchor="middle" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="13" letter-spacing="2" fill="#A7B7AD">
+      <text x="160" y="116">TABELAS</text><text x="480" y="116">TESTES AUTOMATIZADOS</text><text x="800" y="116">PERFIS DE ACESSO</text><text x="1120" y="116">REGIÕES (BR · EU · US)</text>
+    </g>
+  </g>
+  <g stroke="#79F016" stroke-opacity="0.2"><path d="M320 28V122M640 28V122M960 28V122"/></g>
+</svg>

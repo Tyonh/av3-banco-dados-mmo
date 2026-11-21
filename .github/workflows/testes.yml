@@ -1,0 +1,35 @@
+name: Testes do banco
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      PGDATABASE: postgres
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cria o banco (mmo_banco.sql)
+        run: psql -X -v ON_ERROR_STOP=1 -q -f sql/mmo_banco.sql > /dev/null
+
+      - name: Roda os 61 testes (testes.sql)
+        run: psql -X -v ON_ERROR_STOP=1 -f sql/testes.sql
+
+      - name: Teste de concorrência (duas compras simultâneas)
+        run: bash scripts/teste_concorrencia.sh

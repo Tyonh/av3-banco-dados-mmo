@@ -1,0 +1,11 @@
+erDiagram
+    CONTA ||--|| PERSONAGEM : "possui"
+    CONTA ||--o{ PENALIDADE : "recebe"
+    CLA |o--o{ PERSONAGEM : "agrupa"
+    PERSONAGEM }o--o{ SKILL : "treina"
+    PERSONAGEM }o--o{ ITEM : "guarda"
+    PERSONAGEM }o--o{ QUEST : "realiza"
+    SKILL ||--o{ QUEST : "é exigida por"
+    PERSONAGEM ||--o{ OFERTA_MERCADO : "anuncia"
+    ITEM ||--o{ OFERTA_MERCADO : "é negociado em"
+    PERSONAGEM |o--o{ LOG_ATIVIDADE : "gera"

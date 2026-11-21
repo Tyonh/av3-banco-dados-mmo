@@ -1,0 +1,16 @@
+flowchart TB
+    J1[Jogadores BR] --> A1[Servidores do jogo BR]
+    J2[Jogadores EU] --> A2[Servidores do jogo EU]
+    J3[Jogadores US] --> A3[Servidores do jogo US]
+    A1 --> N1[(Nó BR<br/>contas, personagens,<br/>inventário, skills, logs)]
+    A2 --> N2[(Nó EU<br/>contas, personagens,<br/>inventário, skills, logs)]
+    A3 --> N3[(Nó US<br/>contas, personagens,<br/>inventário, skills, logs)]
+    A1 & A2 & A3 --> G[(Nó GLOBAL<br/>catálogo de itens, skills, quests,<br/>clãs e mercado)]
+    N1 -. replicação .-> R1[(Réplica BR)]
+    N2 -. replicação .-> R2[(Réplica EU)]
+    N3 -. replicação .-> R3[(Réplica US)]
+    G -. replicação .-> RG[(Réplica Global)]
+    style G fill:#fde68a,stroke:#b45309
+    style N1 fill:#bbf7d0,stroke:#15803d
+    style N2 fill:#bfdbfe,stroke:#1d4ed8
+    style N3 fill:#fecaca,stroke:#b91c1c
