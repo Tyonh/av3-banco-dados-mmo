@@ -18,7 +18,7 @@ Trabalho da 3ª Avaliação (AV3) de **Técnicas de Implementação de Banco de 
 | **Equipe** | Antonio Geovane Porto Camelo · Esli Pompeu de Paulo Rufino Filho · Joel Caleb Coelho dos Santos · Lucas Amaro Oliveira |
 | **Professor** | Kaio Mesquita |
 | **SGBD** | PostgreSQL 16 |
-| **Relatório** | [`docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx`](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx) (padrão ABNT) |
+| **Relatório** | [`docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx`](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx) · [PDF](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.pdf) (padrão ABNT, 36 páginas) |
 | **Slides** | [`docs/apresentacao/AV3_Banco_de_Dados_MMO_slides.pdf`](docs/apresentacao/AV3_Banco_de_Dados_MMO_slides.pdf) (15 slides) |
 
 <img src="docs/assets/divider.svg" width="100%" alt="">
@@ -277,4 +277,4 @@ Ferramenta proposta: **pgBackRest**. Com o WAL arquivado, um erro humano (como u
 
 <img src="docs/assets/divider.svg" width="100%" alt="">
 
-<sub>Referências, justificativas e resultados completos estão no [relatório técnico](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.docx).</sub>
+<sub>Referências, justificativas e resultados completos estão no [relatório técnico](docs/relatorio/AV3_Banco_de_Dados_MMO_ABNT.pdf).</sub>
